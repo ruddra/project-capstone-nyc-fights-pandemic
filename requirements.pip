@@ -8,3 +8,5 @@ beautifulsoup4
 geocoder
 geopy
 sklearn
+selenium
+fuzzywuzzy[speedup]
