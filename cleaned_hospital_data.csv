@@ -6,30 +6,30 @@
 4,Richmond University Medical Center,448,20,Manhattan,Turtle Bay
 5,Southside Hospital,305,26,Manhattan,East Harlem
 6,Huntington Hospital,348,12,Queens,Ridgewood
-7,New York-Presbyterian/Queens,535,29,Brooklyn,Carroll Gardens
-8,Brooklyn Hospital Center - Downtown Campus,464,24,Brooklyn,Fort Greene
-9,Montefiore Medical Center - Henry & Lucy Moses Div,816,48,Bronx,Norwood
-10,New York-Presbyterian/Lower Manhattan Hospital,180,13,Manhattan,Chinatown
-11,Montefiore Medical Center-Wakefield Hospital,321,16,Bronx,Woodlawn
-12,Lincoln Medical & Mental Health Center,362,23,Bronx,Melrose
-13,University Hospital - Stony Brook Eastern Long Island Hospital,70,2,Brooklyn,Brownsville
-14,New York Eye and Ear Infirmary of Mount Sinai,69,0,Brooklyn,Williamsburg
-15,New York-Presbyterian Hospital - New York Weill Cornell Center,862,85,Manhattan,Turtle Bay
-16,North Shore University Hospital,756,97,Brooklyn,Prospect Lefferts Gardens
-17,Peconic Bay Medical Center,140,12,Bronx,Norwood
-18,Lenox Hill Hospital,632,15,Manhattan,Upper East Side
-19,Jacobi Medical Center,457,24,Bronx,Melrose
-20,Elmhurst Hospital Center,545,20,Queens,Jackson Heights
-21,Long Island Community Hospital,306,17,Brooklyn,Brighton Beach
-22,Memorial Hospital for Cancer and Allied Diseases,514,20,Manhattan,Murray Hill
-23,Staten Island University Hosp-North,472,36,Queens,Glen Oaks
-24,NYU Winthrop Hospital,591,36,Brooklyn,Erasmus
-25,Mount Sinai Beth Israel,696,36,Manhattan,East Village
-26,Glen Cove Hospital,247,11,Queens,South Ozone Park
-27,St Francis Hospital,364,36,Bronx,Fordham
-28,John T Mather Memorial Hospital of Port Jefferson New York Inc,248,12,Brooklyn,Windsor Terrace
-29,Flushing Hospital Medical Center,299,12,Bronx,Melrose
-30,Maimonides Medical Center,711,40,Brooklyn,Borough Park
+7,Mount Sinai St. Luke's,495,24,Manhattan,East Harlem
+8,New York-Presbyterian/Queens,535,29,Brooklyn,Carroll Gardens
+9,Brooklyn Hospital Center - Downtown Campus,464,24,Brooklyn,Fort Greene
+10,Montefiore Medical Center - Henry & Lucy Moses Div,816,48,Bronx,Norwood
+11,New York-Presbyterian/Lower Manhattan Hospital,180,13,Manhattan,Chinatown
+12,Montefiore Medical Center-Wakefield Hospital,321,16,Bronx,Woodlawn
+13,Lincoln Medical & Mental Health Center,362,23,Bronx,Melrose
+14,University Hospital - Stony Brook Eastern Long Island Hospital,70,2,Brooklyn,Brownsville
+15,New York Eye and Ear Infirmary of Mount Sinai,69,0,Brooklyn,Williamsburg
+16,New York-Presbyterian Hospital - New York Weill Cornell Center,862,85,Manhattan,Turtle Bay
+17,North Shore University Hospital,756,97,Brooklyn,Prospect Lefferts Gardens
+18,Peconic Bay Medical Center,140,12,Bronx,Norwood
+19,Lenox Hill Hospital,632,15,Manhattan,Upper East Side
+20,Jacobi Medical Center,457,24,Bronx,Melrose
+21,Elmhurst Hospital Center,545,20,Queens,Jackson Heights
+22,Long Island Community Hospital,306,17,Brooklyn,Brighton Beach
+23,Memorial Hospital for Cancer and Allied Diseases,514,20,Manhattan,Murray Hill
+24,Staten Island University Hosp-North,472,36,Queens,Glen Oaks
+25,NYU Winthrop Hospital,591,36,Brooklyn,Erasmus
+26,Mount Sinai Beth Israel,696,36,Manhattan,East Village
+27,Glen Cove Hospital,247,11,Queens,South Ozone Park
+28,St Francis Hospital,364,36,Bronx,Fordham
+29,John T Mather Memorial Hospital of Port Jefferson New York Inc,248,12,Brooklyn,Windsor Terrace
+30,Flushing Hospital Medical Center,299,12,Bronx,Melrose
 31,Long Island Jewish Medical Center,1025,62,Queens,Glen Oaks
 32,Coney Island Hospital,371,22,Brooklyn,Gravesend
 33,Mount Sinai South Nassau,455,14,Manhattan,East Harlem
@@ -47,30 +47,28 @@
 45,Hospital for Special Surgery,215,4,Manhattan,Yorkville
 46,Mount Sinai Hospital - Mount Sinai Hospital of Queens,228,8,Manhattan,East Harlem
 47,Good Samaritan Hospital Medical Center,437,42,Manhattan,East Harlem
-48,NYU Langone Hospital-Brooklyn,444,28,Bronx,Morris Heights
-49,Plainview Hospital,204,8,Brooklyn,Bensonhurst
-50,St. Joseph Hospital,203,8,Bronx,Spuyten Duyvil
-51,Calvary Hospital Inc,200,0,Bronx,Pelham Bay
-52,University Hospital - Stony Brook Southampton Hospital,124,8,Brooklyn,Prospect Lefferts Gardens
-53,Calvary Hospital,25,0,Bronx,Pelham Bay
-54,Long Island Jewish Forest Hills,312,28,Queens,Forest Hills
-55,University Hospital of Brooklyn,342,19,Brooklyn,Prospect Lefferts Gardens
-56,Rockefeller University Hospital,40,0,Brooklyn,Prospect Lefferts Gardens
-57,Long Island Jewish Valley Stream,284,8,Queens,Glen Oaks
-58,North Central Bronx Hospital,213,20,Bronx,Norwood
-59,NYU Langone Orthopedic Hospital,225,0,Manhattan,East Village
-60,University Hospital,624,65,Brooklyn,Prospect Lefferts Gardens
-61,St Johns Episcopal Hospital So Shore,257,8,Queens,Far Rockaway
-62,Woodhull Medical & Mental Health Center,364,24,Brooklyn,Sunset Park
-63,Interfaith Medical Center,287,13,Brooklyn,Crown Heights
-64,St. Barnabas Hospital Health System,422,26,Bronx,Fordham
-65,St Catherine of Siena Hospital,296,12,Manhattan,Clinton
-66,Syosset Hospital,103,12,Bronx,Spuyten Duyvil
-67,Mount Sinai Brooklyn,212,12,Manhattan,Chelsea
-68,Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div,421,22,Bronx,Pelham Parkway
-69,New York-Presbyterian Hospital - Allen Hospital,196,6,Manhattan,Inwood
-70,New York-Presbyterian Hospital - Columbia Presbyterian Center,1022,99,Manhattan,Yorkville
-71,Mount Sinai West,514,33,Manhattan,East Harlem
-72,Staten Island University Hosp-South,194,8,Brooklyn,Prospect Lefferts Gardens
-73,RUMC-Bayley Seton,25,0,Queens,Queens Village
-74,BronxCare Hospital Center,170,0,Bronx,Morrisania
+48,Plainview Hospital,204,8,Brooklyn,Bensonhurst
+49,St. Joseph Hospital,203,8,Bronx,Spuyten Duyvil
+50,Calvary Hospital Inc,200,0,Bronx,Pelham Bay
+51,University Hospital - Stony Brook Southampton Hospital,124,8,Brooklyn,Prospect Lefferts Gardens
+52,Calvary Hospital,25,0,Bronx,Pelham Bay
+53,Long Island Jewish Forest Hills,312,28,Queens,Forest Hills
+54,University Hospital of Brooklyn,342,19,Brooklyn,Prospect Lefferts Gardens
+55,Rockefeller University Hospital,40,0,Brooklyn,Prospect Lefferts Gardens
+56,North Central Bronx Hospital,213,20,Bronx,Norwood
+57,NYU Langone Orthopedic Hospital,225,0,Manhattan,East Village
+58,University Hospital,624,65,Brooklyn,Prospect Lefferts Gardens
+59,St Johns Episcopal Hospital So Shore,257,8,Queens,Far Rockaway
+60,Woodhull Medical & Mental Health Center,364,24,Brooklyn,Sunset Park
+61,Interfaith Medical Center,287,13,Brooklyn,Crown Heights
+62,St. Barnabas Hospital Health System,422,26,Bronx,Fordham
+63,St Catherine of Siena Hospital,296,12,Manhattan,Clinton
+64,Syosset Hospital,103,12,Bronx,Spuyten Duyvil
+65,Mount Sinai Brooklyn,212,12,Manhattan,Chelsea
+66,Montefiore Med Center - Jack D Weiler Hosp of A Einstein College Div,421,22,Bronx,Pelham Parkway
+67,New York-Presbyterian Hospital - Allen Hospital,196,6,Manhattan,Inwood
+68,New York-Presbyterian Hospital - Columbia Presbyterian Center,1022,99,Manhattan,Yorkville
+69,Mount Sinai West,514,33,Manhattan,East Harlem
+70,Staten Island University Hosp-South,194,8,Brooklyn,Prospect Lefferts Gardens
+71,RUMC-Bayley Seton,25,0,Queens,Queens Village
+72,BronxCare Hospital Center,170,0,Bronx,Morrisania

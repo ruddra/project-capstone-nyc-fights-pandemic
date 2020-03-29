@@ -10,3 +10,5 @@ geopy
 sklearn
 selenium
 fuzzywuzzy[speedup]
+python-dotenv
+requests

@@ -198,14 +198,14 @@ def render_map_clusters(df, df_clusters, kclusters=3):
     colors_array = cm.rainbow(np.linspace(0, 1, len(ys)))
     rainbow = [colors.rgb2hex(i) for i in colors_array]
     markers_colors = []
-    for lat, lon, poi, cluster, hos_v_pop in zip(df['Latitude'], df['Longitude'], df['Borough'], df['Cluster Labels'], df["Bed per Person"]):
+    for lat, lon, poi, cluster, bed_per_people in zip(df['Latitude'], df['Longitude'], df['Borough'], df['Cluster Labels'], df_clusters[:, 1]):
         label = folium.Popup(
             str(poi) + ' Cluster ' + str(cluster),
             parse_html=True
         )
         folium.CircleMarker(
             [lat, lon],
-            radius=hos_v_pop,
+            radius=bed_per_people,
             popup=label,
             color=colours[cluster],
             fill=True,
@@ -333,7 +333,7 @@ def combine_hospital_beds_with_boro_neighborhood(
 
     df = pd.DataFrame(data, columns=column_names+boro_neig_column_names)
     df = df.drop_duplicates(
-        subset=["Borough", "Neighborhood", "Hospital Name"]
+        subset=["Borough", "Neighborhood", "Hospital Name"], keep="last"
     )
     df.to_csv('cleaned_hospital_data.csv')
     return df
@@ -344,6 +344,14 @@ def combine_hospital_beds_with_boro_neighborhood(
 # combine_hospital_beds_with_boro_neighborhood(h_df, h_pbn_df)
 
 c_df = pd.read_csv('cleaned_hospital_data.csv')
+
+print(c_df.head(20))
+
+c_df = c_df.groupby(
+    ["Neighborhood", "Borough"]).agg({'Bed Number': "sum", "ICU Bed Number": "sum"})
+
+
+print(c_df.head(20))
 
 
 ny_df = get_new_york_data()
@@ -362,10 +370,7 @@ def get_icu_bed_per_person(row):
     return row["ICU Bed Number"] * 100 / row["Population"]
 
 
-print(ny_p_df.head())
-
 ny_p_df.set_index('Neighborhood')
-c_df.set_index('Neighborhood')
 
 df = pd.merge(c_df, ny_p_df, how="inner", on=["Borough", "Neighborhood"])
 df.to_csv('final_data.csv')
