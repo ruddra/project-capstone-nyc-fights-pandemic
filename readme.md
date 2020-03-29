@@ -1,7 +1,6 @@
-Project Battle of Capstones: The Battle of Neighborhoods
---------------------------------------------------------
+# Capstone Project: Find Best Neighborhood to Fight Pandemic in NYC
 
-It contains codes and jupyter notebook of [Project Battle of Capstones: The Battle of Neighborhoods](https://ruddra.com/posts/project-battle-of-capstones/).
+It contains codes and jupyter notebook of [Capstone Project: Find Best Neighborhood to Fight Pandemic in NYC](https://ruddra.com/posts/project-battle-of-capstones/).
 
 ## Useful links
 
