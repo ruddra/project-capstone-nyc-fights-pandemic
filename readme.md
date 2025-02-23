@@ -1,6 +1,10 @@
 # Capstone Project: Find Best Neighborhood to Fight Pandemic in NYC
 
-It contains codes and jupyter notebook of [Capstone Project: Find Best Neighborhood to Fight Pandemic in NYC](https://ruddra.com/posts/project-battle-of-capstones/).
+It contains codes and jupyter notebook of:
+1. Problem and Approach: https://ruddra.com/project-battle-of-capstones/
+3. Methodology: https://ruddra.com/project-battle-of-capstones-methodology/
+4. Results: https://ruddra.com/project-battle-of-capstones-results/
+
 
 Right now(2020), New York is one of the worst hit state by COVID-19 in USA. New York city is at the center of the disaster. The hospitals are already stretched thin with patients overflowing. According to New York Times report, (at the moment of writing) death toll was 365, case count topped 23,000.
 
